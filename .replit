@@ -1,6 +1,6 @@
-run = "kotlinc -d main.jar main.kt && kotlin -classpath main.jar MainKt"
+run = "kotlinc -d main.jar src/main/kotlin/com/example/studykotlinferronato/StudyKotlinFerronatoApplication.kt && kotlin -classpath main.jar MainKt"
 
-entrypoint = "main.kt"
+entrypoint = "src/main/kotlin/com/example/studykotlinferronato/StudyKotlinFerronatoApplication.kt"
 
 hidden=["*.jar"]
 
